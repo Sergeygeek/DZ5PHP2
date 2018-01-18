@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+  </head>
+
+  <body>
+    <p>Добавить товар</p> 
+    <form action="server.php" method="post" enctype="multipart/form-data">
+      <label>
+        <p>Название товара:</p>
+        <input type="text" name="name">
+      </label>
+      <label>
+        <p>Описание товара:</p>
+        <textarea name="description" id="" cols="30" rows="10"></textarea>
+      </label>
+      <label>
+        <p>Цена товара:</p>
+        <input type="number" name="price">
+      </label>
+      <label>
+        <p>Загрузить фотографию:</p>
+        <input type="file" name="img">
+      </label><br><br>
+      <button type="submit" name="send">Загрузить</button>
+    </form>
+ 
+  </body>
+</html>
+<?php
+
+
+
+
+?>
